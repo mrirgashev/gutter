@@ -18,5 +18,5 @@ from django.urls import include, path
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', include(('gutter.urls', 'config'), namespace='guttter')),
+    path('', include(('gutter.urls', 'config'), namespace='gutter')),
 ]
